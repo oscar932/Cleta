@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.oscar.cleta.fragment_speed">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/speed"
+        android:textSize="24sp"
+        android:layout_below="@+id/editAceler"
+        android:layout_alignStart="@+id/editAceler"
+        android:id="@+id/textView2"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aceler"
+        android:textSize="24sp"
+        android:id="@+id/aceleracion"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="48dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 0 km/h^2"
+        android:textSize="24sp"
+        android:layout_marginTop="19dp"
+        android:id="@+id/editAceler"
+        android:layout_below="@+id/aceleracion"
+        android:layout_alignStart="@+id/aceleracion" />
+
+    <TextView
+        android:id="@+id/math"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editAceler"
+        android:layout_alignBottom="@+id/editAceler"
+        android:layout_marginStart="30dp"
+        android:layout_toEndOf="@+id/editAceler"
+        android:lineSpacingExtra="8sp"
+        android:text=""
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editSpeed"
+        android:textSize="24sp"
+        android:layout_marginTop="33dp"
+        android:text="2"
+        android:layout_below="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="km/h"
+        android:textSize="24sp"
+        android:layout_alignBaseline="@+id/editSpeed"
+        android:layout_alignBottom="@+id/editSpeed"
+        android:layout_marginStart="80dp"
+        android:lineSpacingExtra="15sp"
+        android:layout_toEndOf="@+id/editAceler"
+        />
+
+</RelativeLayout>
+

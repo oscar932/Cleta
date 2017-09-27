@@ -59,9 +59,9 @@ public class fragment_speed extends Fragment {
 
         aceleration = (TextView) myInflatedView.findViewById(R.id.editAceler);
         speed = (TextView) myInflatedView.findViewById(R.id.editSpeed);
-        String formulaString = "<body>km/h<sup>2</sub></body>";
+        //String formulaString = "<body>km/h<sup>2</sub></body>";
         TextView formula = (TextView) myInflatedView.findViewById(R.id.math);
-        formula.setText(Html.fromHtml(formulaString));
+        //formula.setText(Html.fromHtml(formulaString));
         // Timer
         TimerTask myTask = new TimerTask() {
             public void run() {

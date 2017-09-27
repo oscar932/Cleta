@@ -15,13 +15,13 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:background="@drawable/cleta"
-        android:fontFamily="casual"
+        android:fontFamily="sans-serif-smallcaps"
         android:text="Bienvenido"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat"
         android:textColor="@android:color/white"
         android:textSize="35sp"
-        android:textStyle="bold"
+        android:textStyle="normal|bold"
         android:visibility="visible" />
 
 </RelativeLayout>
